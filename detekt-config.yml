@@ -82,9 +82,11 @@ complexity:
   LargeClass:
     active: true
     threshold: 300
+    excludes: [ '**/test/**', '**/androidTest/**', '**/commonTest/**' ]
   LongMethod:
     active: true
     threshold: 70
+    excludes: [ '**/test/**', '**/androidTest/**', '**/commonTest/**' ]
   LongParameterList:
     active: true
     functionThreshold: 6
@@ -718,7 +720,7 @@ formatting:
     active: true
     indentSize: 4
   MaximumLineLength:
-    excludes: [ "**/assets/**" ]
+    excludes: [ "**/assets/**", '**/test/**', '**/androidTest/**', '**/commonTest/**' ]
     active: true # This rules overlaps with style>MaxLineLength from the standard rules
     maxLineLength: 120
     excludePackageStatements: true
