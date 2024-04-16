@@ -720,7 +720,7 @@ formatting:
     active: true
     indentSize: 4
   MaximumLineLength:
-    excludes: [ "**/assets/**", '**/test/**', '**/androidTest/**', '**/commonTest/**' ]
+    excludes: [ "**/assets/**", '**/test/**', '**/androidTest/**', '**/commonTest/**', '**/mocks/**' ]
     active: true # This rules overlaps with style>MaxLineLength from the standard rules
     maxLineLength: 120
     excludePackageStatements: true
