@@ -834,6 +834,6 @@ compose:
   PublicComposablePreview:
     active: true
   TopLevelComposableFunctions:
-    active: true
+    active: false
   ComposeFunctionName:
     active: true
