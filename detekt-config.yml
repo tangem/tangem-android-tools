@@ -627,7 +627,7 @@ style:
     ignoreAnnotated: [ 'UnusedRequiredComponent' ]
   UnusedPrivateMember:
     active: true
-    allowedNames: '(_|ignored|expected|serialVersionUID)'
+    allowedNames: '(_|ignored|expected|serialVersionUID|modifier)'
     ignoreAnnotated: [ 'Preview', 'UnusedRequiredComponent' ]
   UseAnyOrNoneInsteadOfFind:
     active: true
